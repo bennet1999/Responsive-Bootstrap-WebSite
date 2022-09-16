@@ -219,22 +219,30 @@ section{
 
 
 /* ========================== F E A T U R E S =====================*/
-.feature{
+
+
+.rowUnatural1{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-bottom: 75px;
+}
+
+.rowUnatural1 p{
+    max-width: 60%;
+}
+
+.coloumnUnatural1{
     display: flex;
 }
 
-.feature .icon-feature{
-    font-size: 44px;
+.coloumnUnatural1 h3{
+    padding-top: 15px;
+}
+
+.icon-feature i{
+    font-size: 36px;
+    padding: 10px;
     color: var(--brand);
-    line-height: 1;
-    margin-right: 16px;
 }
-
-.feature p{
-    font-size: 14px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-
-}
-
-
